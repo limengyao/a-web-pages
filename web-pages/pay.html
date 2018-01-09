@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="pay.css">
+</head>
+<body >
+    <div class="title">
+        <p>付款<br>payment</p>
+    </div>
+    <div class="mes_box">
+        <form >
+            <ul class="box">
+                <li></li>
+                <li class="clearfix">
+                    <span>购买数量</span>  
+                    <ul class="clearfix choose">
+                        <li class="active" num="1">1次</li>
+                        <li num="2">2次</li>
+                        <li num="3">3次</li>
+                        <li num="4">4次</li>
+                        <li num="5">5次</li>
+                    </ul>
+                </li>
+                <li>
+                    <span>支付方式</span>  
+                    <ul class="clearfix choose choosetype">
+                        <li class="active" style="0"><img src="image/pay_1.png"></li>
+                        <li style="1"><img src="image/pay_2.png"></li>
+                    </ul>
+                </li>
+                <li><span>应付金额</span> <p><em>66666</em>&nbsp;&nbsp;元</p></li>
+            </ul>
+            <p class="sub">去支付</p>
+            <input class="num" value="1" type="hidden">
+            <!-- 0支付宝 1代表微信 -->
+            <input class="style" value="0" type="hidden">
+        </form>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+        var ul = $(".choose");
+        ul.on("click","li",function(){
+            var that = $(this);
+            that.addClass("active").siblings().removeClass("active");
+            if(that.attr("num")){
+                $(".num").val(that.attr("num"));
+            }else if(that.attr("style")){
+                $(".style").val(that.attr("style"));
+            }
+            
+            //$(".type").val(that.attr("type"));
+        });
+    </script>
+</body>
+</html>

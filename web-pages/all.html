@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="all.css">
+</head>
+<body >
+    <!-- 选择加速类型 start-->
+    <div class="title">
+        <p>选择加速类型<br>Select acceleration type</p>
+    </div>
+    <div class="mes_box">
+        <p class="text_1">选择你需要的服务类型</p>
+        <p class="text_2">我们为您提供了最划算的套餐，以供选择</p>
+        <ul class="clearfix box">
+            <li class="left active">
+                <p class="first">首次上传到APP Store</p>
+                <p class="leave">当前剩余<span>0</span>次</p>
+                <p class="car"><i><img src="image/shop_car.png">  </i>  去购买</p>
+                <P class="select"><img src="image/active.png"></P>
+            </li>
+            <li class="right">
+                <ul class="message">
+                    <form>
+                        <li><span>姓名</span>  <input type="text"></li>
+                        <li><span>手机号</span>  <input type="number"></li>
+                        <li><span>微信/QQ</span>  <input type="text"></li>
+                        <li><span>APP名称</span>  <input type="text"></li>
+                        <li><span>产品类型</span>  <input type="text"></li>
+                        <li><span class="speceil">被拒原因</span> <textarea></textarea></li>
+                    </form>
+                </ul>
+            </li>
+        </ul>
+        <P class="next"><a href="">下一步</a></P>
+    </div>
+    <!-- pop -->
+    <div class="pop"></div>
+    <div class="pop_box">
+        <p class="top">提示</p>
+        <p class="cen">购买的次数以及用完，请先购买</p>
+        <p class="hide">取消</p><p class="go_buy"><a href="">去购买</a></p>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+        $(".hide").on("click",function(){
+            $(".pop").hide();
+            $(".pop_box").hide();
+        })
+    </script>
+</body>
+</html>

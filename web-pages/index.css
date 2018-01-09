@@ -1,0 +1,319 @@
+/****base start*****/
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;} 
+.clearfix{*zoom:1;*display:inline;}
+a{
+    text-decoration: none;
+    color: #333;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+/****base over*****/
+.nav{
+    height: 72px;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+}
+.nav .nav_fix{
+    height: 32px;
+    line-height: 23px;
+    padding: 20px 0;
+    width: 1226px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.nav .nav_fix .logo{
+    width: 187px;
+    height: 32px;
+    float: left;
+    margin-right: 50px;
+    background:url("image/logo.png");
+    background-size:187px 32px;
+}
+.nav .nav_fix ul{
+    float: left;
+}
+.nav .nav_fix ul li{
+    float: left;
+    line-height: 32px;
+    font-size: 14px;
+    color: #333;
+    padding-right: 40px;
+}
+.nav .nav_fix ul li a:hover{
+        color:red;
+}
+.nav .nav_fix .right{
+    float: right;
+}
+.nav .nav_fix .right a{
+    margin-left: 25px;
+}
+.center_img{
+    margin-top: 72px;
+    width: 100%;
+}
+.content{
+    padding: 0px 50px 40px 50px;
+    width: 1126px;
+    margin: 43px auto 40px;
+}
+.content .intro_img li{
+    float: left;
+    margin-right: 32px;
+   /* width: 25%;*/
+}
+.content .intro_img .last{
+    margin-right: 0;
+}
+.content .intro_img li img{
+    width: 257px;
+    /*height: 210px;*/
+    /*width: 90%;*/
+}
+.content .part{
+    width: 100%;
+    height: 340px;
+    background:url("image/img5.png");
+    background-size:100% 100%;
+    margin-top:40px;
+}
+.content .part2{
+    background-image:url("image/img6.png");
+}
+.content .part3{
+    background-image:url("image/img7.png");
+}
+.content .part4{
+    background-image:url("image/img8.png");
+}
+.content .part .btn{
+    width:375px;
+    height: 60px;
+    margin: 0px auto 0;
+    padding-top: 215px;
+}
+.content .part .btn a{
+    display: block;
+    width: 174px;
+    height: 58px;
+    border: 1px solid #f6a437;
+    text-decoration: center;
+    line-height: 58px;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+.content .part .btn .on{
+    background: #f6a437;
+}
+.content .part3 .btn{
+    width: 176px;
+}
+.content .part4 .btn{
+    margin:0 0 0 260px; 
+    width: 176px;
+    padding-top: 225px;
+}
+.content .text1{
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    padding-top: 110px;
+}
+.content .text2{
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    padding-top: 24px;
+}
+.content .logo_all{
+    width: 100%;
+    margin: 77px auto 189px;
+}
+.content .logo_all li{
+    width: 212px;
+    height: 110px;
+    float: left; 
+}
+.content .logo_all .logo{
+    background:url("image/all_logo.png");
+}
+.content .logo_all .logo1{
+    background-position:230px -1380px;
+}
+.content .logo_all .logo1:hover{
+    background-position:0px -1380px;
+}
+.content .logo_all .logo2{
+    background-position:230px -758px;
+}
+.content .logo_all .logo2:hover{
+    background-position:0px -758px;
+}
+.content .logo_all .logo3{
+    background-position:230px -0px;
+}
+.content .logo_all .logo3:hover{
+    background-position:0px -0px;
+}
+.content .logo_all .logo4{
+    background-position:230px -1008px;
+}
+.content .logo_all .logo4:hover{
+    background-position:0px -1008px;
+}
+.content .logo_all .logo5{
+    background-position:230px -1258px;
+}
+.content .logo_all .logo5:hover{
+    background-position:0px -1258px;
+}
+.content .logo_all .logo6{
+    background-position:230px -378px;
+}
+.content .logo_all .logo6:hover{
+    background-position:0px -378px;
+}
+.content .logo_all .logo7{
+    background-position:230px -503px;
+}
+.content .logo_all .logo7:hover{
+    background-position:0px -503px;
+}
+.content .logo_all .logo8{
+    background-position:230px -252px;
+}
+.content .logo_all .logo8:hover{
+    background-position:0px -252px;
+}
+.content .logo_all .logo9{
+    background-position:230px -629px;
+}
+.content .logo_all .logo9:hover{
+    background-position:0px -629px;
+}
+.content .logo_all .logo10{
+    background-position:230px -889px;
+}
+.content .logo_all .logo10:hover{
+    background-position:0px -889px;
+}
+.content .logo_all .logo11{
+    background-position:230px -1129px;
+}
+.content .logo_all .logo11:hover{
+    background-position:0px -1129px;
+}
+.content .logo_all .logo12{
+    background-position:230px -126px;
+}
+.content .logo_all .logo12:hover{
+    background-position:0px -126px;
+}
+.footer{
+    background: #2f2f2f;
+    padding-top: 80px;
+    min-width: 1226px;
+}
+.footer .bottom{
+    width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.footer .bottom .logo_part{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.footer .bottom .logo_part .logo_bottom{
+    width: 180px;
+    height: 30px;
+    background: url("image/all_logo.png");
+    background-position: 220px -1503px; 
+}
+.footer .bottom .logo_part .logo_bottom:hover{
+    background-position: 0px -1503px;
+}
+.footer .bottom .logo_part .wei_bo{
+    padding-top: 32px;
+    padding-left: 30px;
+}
+.footer .bottom .logo_part .wei_bo a{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 22px;
+}
+.footer .bottom .logo_part .wei_bo .weixin{
+    background: url("image/all_logo.png");
+    background-position: 258px -1559px; 
+}
+.footer .bottom .logo_part .wei_bo .weixin:hover{
+    background-position: 323px -1559px; 
+}
+.footer .bottom .logo_part .wei_bo .weibo{
+    background: url("image/all_logo.png");
+    background-position: 388px -1558px; 
+}
+.footer .bottom .logo_part .wei_bo .weibo:hover{
+    background-position: 451px -1558px; 
+}
+.footer .bottom .text_part{
+    float: right;
+}
+.footer .bottom .text_part .title li{
+    float: left;
+    color: #e0e0e0;
+    font-size: 18px;
+}
+.footer .bottom .text_part .title .cen{
+    padding: 0 225px;
+}
+.footer .bottom .text_part .control_1{
+    width: 100px;
+    padding-top: 30px;
+    float: left;
+}
+.footer .bottom .text_part .control_1 li{
+    padding-bottom: 10px;
+}
+.footer .bottom .text_part .control_1 li a{
+    color: #e0e0e0;
+    font-size: 14px;
+}
+.footer .bottom .text_part .control_1 li a:hover{
+    color: #f6a437;
+}
+.footer .bottom .text_part .control_2{
+    width: 198px;
+    float: left;
+    padding-top: 30px;
+}
+.footer .bottom .text_part .control_3{
+    width: 107px;
+    float: left;
+    padding-top: 30px;
+}
+.footer .bottom .text_part .control_4{
+    width: 200px;
+}
+.footer .bottom .text_part .control_5{
+    width: 68px;
+}
+.footer .bot_text{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 22px 0 25px;
+}
+.footer .bot_text p{
+    font-size: 14px;
+    color: #666;
+    padding-bottom: 17px;
+}
+.footer .bot_text p em{
+    font-size: 12px;
+    margin: 0 5px;
+}

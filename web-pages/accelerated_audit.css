@@ -1,0 +1,64 @@
+/****base start*****/
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;} 
+.clearfix{*zoom:1;*display:inline;}
+a{
+    text-decoration: none;
+    color: #333;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+/****base over*****/
+
+body{
+    background: #f1f3f6;
+    color: #666666;
+}
+.title{
+    border-top: 8px solid #63dc76;
+    background: #fff;
+    border-bottom: 1px solid #e4e5e7;
+    height: 65px;
+}
+.title p{
+    width: 1000px;
+    margin: 0 auto;
+    color: #666666;
+    font-size: 16px;
+    padding-top: 14px;
+}
+.mes_box{
+    width: 1160px;
+    margin: 30px auto;
+    border: 1px solid #999999;
+    padding: 20px;
+    background: #fff;
+}
+.mes_box ul li{
+    height: 74px;
+    line-height: 74px;
+    border-bottom: 1px solid #f1f3f7;
+    padding-left: 200px;
+    font-size: 16px;
+}
+.mes_box ul li input{
+    width: 225px;
+    height: 20px;
+    line-height: 20px;
+    padding:4px 10px;
+    border: 1px solid #d8d8d8;
+}
+.mes_box ul li span{
+    width: 100px;
+    display: inline-block;
+}
+.mes_box .sub{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 28px;
+    background: #35495f;
+    border-radius: 5px;
+    margin: 50px 0 0 300px;
+    cursor: pointer;
+}
